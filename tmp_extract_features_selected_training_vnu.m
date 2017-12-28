@@ -1,0 +1,27 @@
+inputData = './data/vnu/training';
+savedImgsIndex= './data/saved_data/imgsIndex_training_vnu_FAST_SURF_500';
+savedImgsIndex2 = './data/saved_data/imgsIndex_training_vnu_SURF_HoG_500';
+savedImgsIndex3 = './data/saved_data/imgsIndex_training_vnu_MinEigen_SURF_500';
+savedImgsIndex4 = './data/saved_data/imgsIndex_training_vnu_Grid_SURF_500';
+savedImgsIndex5 = './data/saved_data/imgsIndex_training_vnu_Harris_SURF_500';
+savedImgsIndex6 = './data/saved_data/imgsIndex_training_vnu_SURF_500';
+savedImgsIndex7 = './data/saved_data/imgsIndex_training_vnu_FAST_HoG_500';
+savedImgsIndex8 = './data/saved_data/imgsIndex_training_vnu_LBP_500';
+savedBagOfVisualWords = './data/saved_data/bagOfVisualWords_training_vnu_FAST_SURF_500';
+savedBagOfVisualWords2 ='./data/saved_data/bagOfVisualWords_training_vnu_SURF_HoG_500';
+savedBagOfVisualWords3 = './data/saved_data/bagOfVisualWords_training_vnu_MinEigen_SURF_500';
+savedBagOfVisualWords4 = './data/saved_data/bagOfVisualWords_training_vnu_Grid_SURF_500';
+savedBagOfVisualWords5 = './data/saved_data/bagOfVisualWords_training_vnu_Harris_SURF_500';
+savedBagOfVisualWords6 = './data/saved_data/bagOfVisualWords_training_vnu_SURF_500';
+savedBagOfVisualWords7 = './data/saved_data/bagOfVisualWords_training_vnu_FAST_HoG_500';
+savedBagOfVisualWords8 = './data/saved_data/bagOfVisualWords_training_vnu_LBP_500';
+
+% vocabularySize = 500;
+% loadDataAndIndex(inputData, savedBagOfVisualWords, savedImgsIndex, 'FAST_SURF', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords2, savedImgsIndex2, 'SURF_HoG', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords3, savedImgsIndex3, 'MinEigen_SURF', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords4, savedImgsIndex4, 'Grid_SURF', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords5, savedImgsIndex5, 'Harris_SURF', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords6, savedImgsIndex6, 'SURF', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords7, savedImgsIndex7, 'FAST_HoG', vocabularySize);
+loadDataAndIndex(inputData, savedBagOfVisualWords8, savedImgsIndex8, 'LBP', vocabularySize);
